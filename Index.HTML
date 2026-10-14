@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Farmer Registration Form</h2>
+
+    <form id="farmerForm">
+      <label>Farmer Name</label>
+      <input type="text" id="name" placeholder="Enter name">
+
+      <label>Mobile Number</label>
+      <input type="text" id="mobile" placeholder="Enter mobile number">
+
+      <label>Village</label>
+      <input type="text" id="village" placeholder="Enter village">
+
+      <label>Select Crop</label>
+      <select id="crop">
+        <option value="">Choose Crop</option>
+        <option value="Wheat">Wheat</option>
+        <option value="Rice">Rice</option>
+        <option value="Cotton">Cotton</option>
+        <option value="Soybean">Soybean</option>
+      </select>
+
+      <label>Land (in acres)</label>
+      <input type="number" id="land" placeholder="Enter land">
+
+      <button type="submit">Register Farmer</button>
+      <button type="reset" class="reset">Reset Form</button>
+    </form>
+
+    <p id="message"></p>
+
+    <h3>Registered Farmers</h3>
+    <div id="farmerList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
