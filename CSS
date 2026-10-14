@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 25px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #151515;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00e676;
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+}
+
+input, select {
+  width: 100%;
+  padding: 11px;
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  background: #00c853;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset {
+  background: #ffca28;
+}
+
+#message {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.farmer-card {
+  background: #252525;
+  padding: 15px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #00e676;
+  overflow-wrap: anywhere;
+}
+
+.delete-btn {
+  background: #ff5252;
+  color: white;
+}
